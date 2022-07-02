@@ -1,38 +1,198 @@
-.App {
+.jumboTron{
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapText2{
+  color:rgba(253,191,12,255);
+  background-color: rgba(45,68,148,255);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: fit-content;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.wrapText{
+  color:rgba(45,68,148,255);
+  background-color: rgba(253,191,12,255);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: fit-content;
+}
+
+.listPoke{
+  background-image:url("./assets/image/list2.png");
+  margin-bottom: 10px;
+  height:60vh;
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .listPoke {
+   height: auto;
   }
+
+  .detailPage{
+   background-image:url("https://i.pinimg.com/564x/f7/57/ee/f757eeb1b9c1b9951dbc52747b5481d8.jpg") !important;
+   height: auto !important ;
+   margin-bottom: 20px;
+   box-shadow: 10px 10px 10px rgb(0 0 0 / 50%);
+  }
+
+  .responWrap{
+    color:rgba(45,68,148,255);
+    width: fit-content;
+    background-color: rgba(253,191,12,255);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 16px;
+  }
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+@media only screen and (min-width: 992px) {
+  .listPoke {
+    height: auto;
+   }
+ 
+   .detailPage{
+    background-image:url("https://i.pinimg.com/564x/f7/57/ee/f757eeb1b9c1b9951dbc52747b5481d8.jpg") ;
+    height: auto ;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 50%);
+   }
+ 
+   .responWrap{
+     color:rgba(45,68,148,255);
+     width: fit-content;
+     background-color: rgba(253,191,12,255);
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+     font-size: 16px;
+   }
+ 
+
+}
+
+@media only screen and (min-width: 768px){
+
+  .listPoke {
+    height: auto;
+   }
+ 
+   .detailPage{
+    background-image:url("https://i.pinimg.com/564x/f7/57/ee/f757eeb1b9c1b9951dbc52747b5481d8.jpg") ;
+    height: auto ;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 50%);
+   }
+ 
+   .responWrap{
+     color:rgba(45,68,148,255);
+     width: fit-content;
+     background-color: rgba(253,191,12,255);
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+     font-size: 16px;
+   }
+}
+
+
+@media only screen and (min-width: 600px){
+  .listPoke {
+    height: auto;
+   }
+ 
+   .detailPage{
+    background-image:url("https://i.pinimg.com/564x/f7/57/ee/f757eeb1b9c1b9951dbc52747b5481d8.jpg") ;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 50%);
+   }
+ 
+   .responWrap{
+     color:rgba(45,68,148,255);
+     width: fit-content;
+     background-color: rgba(253,191,12,255);
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+     font-size: 16px;
+   }
+}
+.listText{
+display: flex;
+justify-content: center;
+margin-top: 170px;
+}
+
+.cardList{
+  width: 8rem;
+  height: 10rem;
+  background-color: #f3d89f !important;
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -ms-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 50%);
 }
 
-.App-link {
-  color: #61dafb;
+.imageCard{
+  width: 80px;
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.detailPage{
+  background-image:url("https://p4.wallpaperbetter.com/wallpaper/661/885/120/nature-pokemon-wallpaper-preview.jpg");
+  height: 60vh;
+  border-radius:  10px;
+  -webkit-border-radius:  10px;
+  -moz-border-radius:  10px;
+  -ms-border-radius:  10px;
+  -o-border-radius:  10px;
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 50%);
+}
+
+.detailImg{
+  height: 203px;
+  width: 246px;
+}
+
+
+.iconClr{
+  color: rgba(253,191,12,255);
+  
+}
+
+
+.page-item.active .page-link {
+  background-color: rgba(253,191,12,255)!important;
+  border-color:rgba(253,191,12,255) !important ;
+  color: rgba(45,68,148,255) !important;
+}
+.page-link {
+  color: rgba(45,68,148,255) !important;
 }

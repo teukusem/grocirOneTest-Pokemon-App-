@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://w.wallhaven.cc/full/vg/wallhaven-vglkw3.png");
+   
+ 
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    background-image: url("https://i.pinimg.com/564x/59/65/bf/5965bfa91c6b42a6528f0f64badbdc5c.jpg");
+  }
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
