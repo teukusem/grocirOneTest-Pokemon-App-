@@ -68,7 +68,9 @@ function ListPokemon({ ref }) {
   return (
     <div id="listpoke">
       {isLoading ? (
-        <Spinner animation="border" variant="warning" />
+        <div className="App">
+          <Spinner animation="border" variant="warning" />
+        </div>
       ) : (
         <Container>
           <div className="listText">

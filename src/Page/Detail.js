@@ -65,7 +65,9 @@ function Detail() {
   return (
     <div>
       {isLoading ? (
-        <Spinner animation="border" variant="warning" />
+        <div className="App">
+          <Spinner animation="border" variant="warning" />
+        </div>
       ) : (
         <Container>
           <h2 className="mt-3 d-flex ">
